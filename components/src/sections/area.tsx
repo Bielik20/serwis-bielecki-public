@@ -1,5 +1,3 @@
-import { BoltIcon, CogIcon, GlobeIcon, PuzzleIcon } from '../icons';
-
 export function Area() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
@@ -9,7 +7,7 @@ export function Area() {
           src="https://bielik20.gitlab.io/junkers-bielecki/map.f3ffa597.png"
           width="1403"
           height="992"
-          alt="Junkers Bielecki Products"
+          alt="Rejon działania"
           className="grow mx-auto overflow-hidden rounded-xl object-cover sm:w-full"
           loading='lazy'
         />

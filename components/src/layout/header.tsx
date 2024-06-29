@@ -13,21 +13,21 @@ export function Header() {
         <nav className="hidden space-x-4 md:flex">
           <Link
             href="#"
-            className="text-sm font-medium hover:underline underline-offset-4"
+            className="text-md font-medium hover:underline underline-offset-4"
             prefetch={false}
           >
             O Firmie
           </Link>
           <Link
             href="#"
-            className="text-sm font-medium hover:underline underline-offset-4"
+            className="text-md font-medium hover:underline underline-offset-4"
             prefetch={false}
           >
             Usługi
           </Link>
           <Link
             href="#"
-            className="text-sm font-medium hover:underline underline-offset-4"
+            className="text-md font-medium hover:underline underline-offset-4"
             prefetch={false}
           >
             Rejon Działania

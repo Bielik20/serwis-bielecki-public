@@ -50,8 +50,9 @@ export function Contact() {
           src="https://generated.vusercontent.net/placeholder.svg"
           width="800"
           height="600"
-          alt="Junkers Bielecki Features"
+          alt="Kontakt"
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full"
+          loading='lazy'
         />
       </div>
     </section>
