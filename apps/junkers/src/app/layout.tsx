@@ -23,7 +23,7 @@ const fontBody = Inter({
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pl">
       <body
         className={cn('antialiased', fontHeading.variable, fontBody.variable)}
       >

@@ -205,9 +205,8 @@ export function CodeIcon(props: SVGProps<SVGSVGElement>) {
       <polyline points="16 18 22 12 16 6" />
       <polyline points="8 6 2 12 8 18" />
     </svg>
-  )
+  );
 }
-
 
 export function HeadphonesIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -225,9 +224,8 @@ export function HeadphonesIcon(props: SVGProps<SVGSVGElement>) {
     >
       <path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3" />
     </svg>
-  )
+  );
 }
-
 
 export function MegaphoneIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -246,9 +244,8 @@ export function MegaphoneIcon(props: SVGProps<SVGSVGElement>) {
       <path d="m3 11 18-5v12L3 14v-3z" />
       <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" />
     </svg>
-  )
+  );
 }
-
 
 export function PieChartIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -267,9 +264,8 @@ export function PieChartIcon(props: SVGProps<SVGSVGElement>) {
       <path d="M21.21 15.89A10 10 0 1 1 8 2.83" />
       <path d="M22 12A10 10 0 0 0 12 2v10z" />
     </svg>
-  )
+  );
 }
-
 
 export function RocketIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -290,7 +286,7 @@ export function RocketIcon(props: SVGProps<SVGSVGElement>) {
       <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
       <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
     </svg>
-  )
+  );
 }
 
 export function SearchIcon(props: SVGProps<SVGSVGElement>) {
@@ -310,7 +306,7 @@ export function SearchIcon(props: SVGProps<SVGSVGElement>) {
       <circle cx="11" cy="11" r="8" />
       <path d="m21 21-4.3-4.3" />
     </svg>
-  )
+  );
 }
 
 export function HeartIcon(props: SVGProps<SVGSVGElement>) {
@@ -329,7 +325,7 @@ export function HeartIcon(props: SVGProps<SVGSVGElement>) {
     >
       <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
     </svg>
-  )
+  );
 }
 
 export function ShoppingCartIcon(props: SVGProps<SVGSVGElement>) {
@@ -350,5 +346,73 @@ export function ShoppingCartIcon(props: SVGProps<SVGSVGElement>) {
       <circle cx="19" cy="21" r="1" />
       <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
     </svg>
-  )
+  );
+}
+
+export function HeaterIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M11 8c2-3-2-3 0-6" />
+      <path d="M15.5 8c2-3-2-3 0-6" />
+      <path d="M6 10h.01" />
+      <path d="M6 14h.01" />
+      <path d="M10 16v-4" />
+      <path d="M14 16v-4" />
+      <path d="M18 16v-4" />
+      <path d="M20 6a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3" />
+      <path d="M5 20v2" />
+      <path d="M19 20v2" />
+    </svg>
+  );
+}
+
+export function WindIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2" />
+      <path d="M9.6 4.6A2 2 0 1 1 11 8H2" />
+      <path d="M12.6 19.4A2 2 0 1 0 14 16H2" />
+    </svg>
+  );
+}
+
+export function FlameIcon(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z" />
+    </svg>
+  );
 }
