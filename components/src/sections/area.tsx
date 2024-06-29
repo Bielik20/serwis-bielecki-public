@@ -1,6 +1,6 @@
 export function Area() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+    <section id="area" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
       <div
         className="container mx-auto grid items-center justify-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
         <img
