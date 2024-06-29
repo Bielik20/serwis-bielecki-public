@@ -4,13 +4,11 @@ import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import {
   BoltIcon,
-  BriefcaseIcon,
   CogIcon,
   GaugeIcon,
   PuzzleIcon,
   SettingsIcon,
   ShieldIcon,
-  WrenchIcon,
 } from './icons';
 
 export function Component() {
@@ -22,72 +20,40 @@ export function Component() {
             src="https://generated.vusercontent.net/placeholder.svg"
             width="800"
             height="600"
-            alt="Junkers Bielecki Products"
+            alt="Autoryzowany Serwis Junkers Bosch"
             className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full"
           />
-          <div className="space-y-4 text-center lg:text-left">
+          <div className="space-y-4 text-center lg:text-center">
             <h1 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              Elevate Your Business with Junkers Bielecki
+              Autoryzowany Serwis Junkers Bosch
             </h1>
             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Discover our high-quality products and innovative solutions
-              designed to transform your business.
+              Jesteśmy autoryzowanym serwisem, dzięki temu masz pewność jakości usług i pochodzenia naszych urządzeń.
             </p>
-            <div className="flex flex-col gap-2 justify-center min-[400px]:flex-row">
-              <Button>Learn More</Button>
-              <Button variant="secondary">Contact Us</Button>
-            </div>
           </div>
         </div>
       </section>
       <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
         <div className="container mx-auto grid items-center justify-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
-          <div className="space-y-4 text-center lg:text-left">
+          <div className="space-y-4 text-center lg:text-center">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              Our Comprehensive Services
+              O Firmie
             </h2>
-            <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              From design to installation, our team of experts provides
-              end-to-end solutions to meet your business needs.
+            <p
+              className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Ponad 25 lat, jesteśmy z wami od 1995 roku, dbając o jakoś konserwowanego sprzętu.
             </p>
-            <div className="grid gap-4 justify-center lg:justify-start">
-              <div className="flex items-start gap-4">
-                <WrenchIcon className="h-6 w-6 text-primary" />
-                <div>
-                  <h3 className="text-lg font-semibold">Installation</h3>
-                  <p className="text-muted-foreground">
-                    Our skilled technicians ensure seamless installation and
-                    setup.
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <SettingsIcon className="h-6 w-6 text-primary" />
-                <div>
-                  <h3 className="text-lg font-semibold">Maintenance</h3>
-                  <p className="text-muted-foreground">
-                    Proactive maintenance and repair services to keep your
-                    equipment running smoothly.
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <BriefcaseIcon className="h-6 w-6 text-primary" />
-                <div>
-                  <h3 className="text-lg font-semibold">Consulting</h3>
-                  <p className="text-muted-foreground">
-                    Our experts provide tailored solutions to optimize your
-                    business operations.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <p className="text-muted-foreground">
+              W naszej pracy stawiamy na rzetelność, fachowość i najwyższą jakość świadczonych
+              usług, a nasi serwisanci odbyli szereg szkoleń, dzięki którym są w stanie zapewnić
+              Panstwo fachową pomoc w każdej sytuacji.
+            </p>
           </div>
           <img
             src="https://generated.vusercontent.net/placeholder.svg"
             width="800"
             height="600"
-            alt="Junkers Bielecki Services"
+            alt="O Firmie"
             className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full"
           />
         </div>
