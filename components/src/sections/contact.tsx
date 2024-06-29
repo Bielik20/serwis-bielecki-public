@@ -23,7 +23,7 @@ export function Contact() {
             <div className="flex items-start gap-4">
               <PhoneIcon className="h-6 w-6 text-primary" />
               <div>
-                <h3 className="text-lg font-semibold">601 706 962</h3>
+                <h3 className="text-lg font-semibold">+48 601 706 962</h3>
               </div>
             </div>
             <div className="flex items-start gap-4">
@@ -35,13 +35,13 @@ export function Contact() {
             <div className="flex items-start gap-4">
               <ClockIcon className="h-6 w-6 text-primary" />
               <div>
-                <h3 className="text-lg font-semibold">Pon. - Pt.      8:00 - 20:00</h3>
+                <h3 className="text-lg font-semibold">Pon. - Pt. 8:00 - 20:00</h3>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <ClockIcon className="h-6 w-6 text-primary" />
               <div>
-                <h3 className="text-lg font-semibold">Sob. - Ndz.   9:00 - 14:00</h3>
+                <h3 className="text-lg font-semibold">Sob. - Ndz. 9:00 - 14:00</h3>
               </div>
             </div>
           </div>

@@ -1,5 +1,3 @@
-import { BoltIcon, CogIcon, PuzzleIcon } from '../icons';
-
 export function Area() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
