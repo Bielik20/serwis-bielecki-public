@@ -1,4 +1,8 @@
-import { Component } from '@serwis-bielecki-public/components/component';
+import { About } from '@serwis-bielecki-public/components/sections/about';
+import { Area } from '@serwis-bielecki-public/components/sections/area';
+import { Contact } from '@serwis-bielecki-public/components/sections/contact';
+import { HomeJunkers } from '@serwis-bielecki-public/components/sections/home-junkers';
+import { Services } from '@serwis-bielecki-public/components/sections/services';
 
 export default function Index() {
   /*
@@ -6,5 +10,13 @@ export default function Index() {
    *
    * Note: The corresponding styles are in the ./index.tailwind file.
    */
-  return <Component />;
+  return (
+    <>
+      <HomeJunkers />
+      <About />
+      <Services />
+      <Area />
+      <Contact />
+    </>
+  );
 }
