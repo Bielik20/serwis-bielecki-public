@@ -1,3 +1,4 @@
+import { Area } from './sections/area';
 import { Services } from './sections/services';
 import { About } from './sections/about';
 import { HomeJunkers } from './sections/home-junkers';
@@ -20,65 +21,8 @@ export function Component() {
       <HomeJunkers />
       <About />
       <Services />
+      <Area />
       <section className="w-full py-12 md:py-24 lg:py-32">
-        <div className="container mx-auto grid items-center justify-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
-          <img
-            src="https://generated.vusercontent.net/placeholder.svg"
-            width="800"
-            height="600"
-            alt="Junkers Bielecki Products"
-            className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full"
-          />
-          <div className="space-y-4 text-center lg:text-left">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              Our High-Quality Products
-            </h2>
-            <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Explore our extensive range of top-of-the-line products designed
-              to meet your unique business needs.
-            </p>
-            <div className="grid gap-4 justify-center lg:justify-start">
-              <div className="flex items-start gap-4">
-                <BoltIcon className="h-6 w-6 text-primary" />
-                <div>
-                  <h3 className="text-lg font-semibold">
-                    Industrial Equipment
-                  </h3>
-                  <p className="text-muted-foreground">
-                    Reliable and efficient industrial equipment for various
-                    applications.
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <CogIcon className="h-6 w-6 text-primary" />
-                <div>
-                  <h3 className="text-lg font-semibold">
-                    Automation Solutions
-                  </h3>
-                  <p className="text-muted-foreground">
-                    Cutting-edge automation technologies to streamline your
-                    operations.
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <PuzzleIcon className="h-6 w-6 text-primary" />
-                <div>
-                  <h3 className="text-lg font-semibold">
-                    Customized Solutions
-                  </h3>
-                  <p className="text-muted-foreground">
-                    Tailored solutions to meet your unique business
-                    requirements.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
         <div className="container mx-auto grid items-center justify-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
           <div className="space-y-4 text-center lg:text-left">
             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
