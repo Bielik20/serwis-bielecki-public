@@ -1,13 +1,8 @@
 import Link from 'next/link';
 import { MountainIcon } from '../icons';
-import { Button } from './button';
+import { Button } from '../ui/button';
 
 export function Header() {
-  /*
-   * Replace the elements below with your own.
-   *
-   * Note: The corresponding styles are in the ./index.tailwind file.
-   */
   return <header className="sticky top-0 z-50 bg-background">
     <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
       <Link

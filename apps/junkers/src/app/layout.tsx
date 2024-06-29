@@ -1,5 +1,5 @@
-import { Footer } from '@serwis-bielecki-public/components/ui/footer';
-import { Header } from '@serwis-bielecki-public/components/ui/header';
+import { Footer } from '@serwis-bielecki-public/components/layout/footer';
+import { Header } from '@serwis-bielecki-public/components/layout/header';
 import { Inter } from 'next/font/google';
 import { cn } from '@serwis-bielecki-public/components/utils';
 import './global.css';
