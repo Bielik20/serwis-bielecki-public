@@ -6,7 +6,7 @@ export function Area() {
           src="https://bielik20.gitlab.io/junkers-bielecki/map.f3ffa597.png"
           width="1403"
           height="992"
-          alt="Rejon działania"
+          alt="Mapa regionu działania Serwis Bielecki"
           className="grow mx-auto overflow-hidden rounded-xl object-cover sm:w-full"
           loading="lazy"
         />
@@ -16,9 +16,9 @@ export function Area() {
           </h2>
           <h3 className="text-2xl font-semibold">Wielkopolska</h3>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Poznań, Oborniki, Szamotuły, Grodzisk Wielkopolski, Śrem, Środa
-            Wielkopolska, Września, Pobiedziska, Buk, Opalenice, Stęszew,
-            Murowana Goślina, Kościan
+            Nasz serwis działa na terenie: Poznań, Oborniki, Szamotuły, Grodzisk
+            Wielkopolski, Śrem, Środa Wielkopolska, Września, Pobiedziska, Buk,
+            Opalenice, Stęszew, Murowana Goślina, Kościan.
           </p>
         </div>
       </div>

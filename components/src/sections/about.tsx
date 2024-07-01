@@ -7,20 +7,21 @@ export function About() {
             O Firmie
           </h2>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Ponad 25 lat, jesteśmy z wami od 1995 roku, dbając o jakoś
-            konserwowanego sprzętu.
+            Jesteśmy z Wami od ponad 25 lat, dbając o jakość konserwowanego
+            sprzętu od 1995 roku.
           </p>
           <p className="text-muted-foreground">
             W naszej pracy stawiamy na rzetelność, fachowość i najwyższą jakość
-            świadczonych usług, a nasi serwisanci odbyli szereg szkoleń, dzięki
-            którym są w stanie zapewnić Panstwo fachową pomoc w każdej sytuacji.
+            świadczonych usług. Nasi serwisanci odbyli szereg szkoleń, dzięki
+            którym są w stanie zapewnić Państwu profesjonalną pomoc w każdej
+            sytuacji.
           </p>
         </div>
         <img
           src="https://generated.vusercontent.net/placeholder.svg"
           width="800"
           height="600"
-          alt="O Firmie"
+          alt="Zespół serwisantów Junkers Bosch"
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full"
           loading="lazy"
         />

@@ -6,7 +6,7 @@ export function HomeJunkers() {
           src="https://generated.vusercontent.net/placeholder.svg"
           width="800"
           height="600"
-          alt="Autoryzowany Serwis Junkers Bosch"
+          alt="Autoryzowany Serwis Junkers Bosch - Serwis i sprzedaż urządzeń"
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full"
           loading="lazy"
         />
@@ -15,8 +15,9 @@ export function HomeJunkers() {
             Autoryzowany Serwis Junkers Bosch
           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Jesteśmy autoryzowanym serwisem, dzięki temu masz pewność jakości
-            usług i pochodzenia naszych urządzeń.
+            Jesteśmy autoryzowanym serwisem Junkers Bosch. Gwarantujemy
+            najwyższą jakość usług i oryginalność naszych urządzeń. Zaufaj
+            profesjonalistom!
           </p>
         </div>
       </div>

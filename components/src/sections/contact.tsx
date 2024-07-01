@@ -9,7 +9,7 @@ export function Contact() {
             Kontakt
           </h2>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center">
-            Skontaktuj się z nami żeby umówić wizytę:
+            Skontaktuj się z nami, aby umówić wizytę:
           </p>
           <div className="grid gap-4 justify-center lg:justify-start">
             <div className="flex items-start gap-4">
