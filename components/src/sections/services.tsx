@@ -51,7 +51,7 @@ export function Services() {
               <ShoppingCartIcon className="h-8 w-8" aria-hidden="true" />
             </div>
             <h3 className="text-xl font-semibold">Sprzedaż</h3>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-center">
               Doradzimy, co kupić i przeprowadzimy profesjonalną wycenę.
             </p>
           </div>
@@ -60,7 +60,7 @@ export function Services() {
               <BoltIcon className="h-8 w-8" aria-hidden="true" />
             </div>
             <h3 className="text-xl font-semibold">Instalacje</h3>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-center">
               Przywieziemy, zamontujemy i uruchomimy zakupione urządzenie.
             </p>
           </div>
@@ -69,7 +69,7 @@ export function Services() {
               <WrenchIcon className="h-8 w-8" aria-hidden="true" />
             </div>
             <h3 className="text-xl font-semibold">Naprawy</h3>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-center">
               W razie awarii naprawimy Twoje urządzenie.
             </p>
           </div>
@@ -78,7 +78,7 @@ export function Services() {
               <SearchIcon className="h-8 w-8" aria-hidden="true" />
             </div>
             <h3 className="text-xl font-semibold">Przeglądy</h3>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-center">
               Przeprowadzimy szczegółowy przegląd Twojego urządzenia.
             </p>
           </div>
@@ -87,7 +87,7 @@ export function Services() {
               <HeartIcon className="h-8 w-8" aria-hidden="true" />
             </div>
             <h3 className="text-xl font-semibold">Konserwacje</h3>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-center">
               Wyczyścimy oraz zapewnimy długowieczność Twojego urządzenia.
             </p>
           </div>
@@ -96,7 +96,7 @@ export function Services() {
               <HeadphonesIcon className="h-8 w-8" aria-hidden="true" />
             </div>
             <h3 className="text-xl font-semibold">Doradztwo</h3>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground text-center">
               Pomożemy wybrać sprzęt i przeprowadzić wstępną diagnozę
               telefonicznie.
             </p>
