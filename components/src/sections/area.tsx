@@ -1,14 +1,14 @@
+import Image from 'next/image'
+import image from './area.png'
+
 export function Area() {
   return (
     <section id="area" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
       <div className="container mx-auto grid items-center justify-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
-        <img
-          src="https://bielik20.gitlab.io/junkers-bielecki/map.f3ffa597.png"
-          width="1403"
-          height="992"
+        <Image
+          src={image}
           alt="Mapa regionu działania Serwis Bielecki"
           className="grow mx-auto overflow-hidden rounded-xl object-cover sm:w-full"
-          loading="lazy"
         />
         <div className="space-y-4 text-center lg:text-center">
           <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">

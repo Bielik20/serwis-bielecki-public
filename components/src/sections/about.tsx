@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import image from './about.png'
+
 export function About() {
   return (
     <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
@@ -17,13 +20,11 @@ export function About() {
             sytuacji.
           </p>
         </div>
-        <img
-          src="https://generated.vusercontent.net/placeholder.svg"
-          width="800"
-          height="600"
+        <Image
+          src={image}
+          placeholder="data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoIAAUAAkA4JQBOhxAAJRn3oQAA/uGlUKsGw1aus1KHZVxwzKab+6l+dDby1EJ1Tr0RH84sjOlfW2yOPbQqNph81AAAAA=="
           alt="Zespół serwisantów Junkers Bosch"
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full"
-          loading="lazy"
         />
       </div>
     </section>

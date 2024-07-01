@@ -1,4 +1,6 @@
 import { ClockIcon, MailIcon, MapPinIcon, PhoneIcon } from '../icons';
+import Image from 'next/image'
+import image from './contact.png'
 
 export function Contact() {
   return (
@@ -77,13 +79,11 @@ export function Contact() {
             </div>
           </div>
         </div>
-        <img
-          src="https://generated.vusercontent.net/placeholder.svg"
-          width="800"
-          height="600"
+        <Image
+          src={image}
+          placeholder='data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABQAQCdASoIAAQAAkA4JZwABDOAAP74AARwg8e7s2i12xfU+aAAAA=='
           alt="Mapa z lokalizacją firmy"
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full"
-          loading="lazy"
         />
       </div>
     </section>
