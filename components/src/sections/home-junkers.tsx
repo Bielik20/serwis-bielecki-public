@@ -8,7 +8,7 @@ export function HomeJunkers() {
           height="600"
           alt="Autoryzowany Serwis Junkers Bosch"
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full"
-          loading='lazy'
+          loading="lazy"
         />
         <div className="space-y-4 text-center lg:text-center">
           <h1 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">

@@ -22,7 +22,7 @@ export function About() {
           height="600"
           alt="O Firmie"
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full"
-          loading='lazy'
+          loading="lazy"
         />
       </div>
     </section>
