@@ -83,7 +83,7 @@ export function Services() {
             </p>
           </div>
           <div className="flex flex-col items-center gap-4">
-            <div className="rounded-full bg-accent p-4 text-accent-foreground flex items-center justify-center">
+            <div className="rounded-full bg-secondary p-4 text-secondary-foreground flex items-center justify-center">
               <HeartIcon className="h-8 w-8" aria-hidden="true" />
             </div>
             <h3 className="text-xl font-semibold">Konserwacje</h3>
