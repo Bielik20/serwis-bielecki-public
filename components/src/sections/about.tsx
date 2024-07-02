@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { COMPANY } from '../types';
 import image from './about.webp';
 
 export function About() {
@@ -23,7 +24,7 @@ export function About() {
         <Image
           src={image}
           placeholder="data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoIAAUAAkA4JQBOhxAAJRn3oQAA/uGlUKsGw1aus1KHZVxwzKab+6l+dDby1EJ1Tr0RH84sjOlfW2yOPbQqNph81AAAAA=="
-          alt="Zespół serwisantów Junkers Bosch"
+          alt={`Zespół serwisantów ${COMPANY} Bosch`}
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full"
         />
       </div>

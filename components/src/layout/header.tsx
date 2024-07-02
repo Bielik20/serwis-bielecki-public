@@ -42,9 +42,7 @@ export function Header() {
           </Link>
         </nav>
         <Link href="#contact" prefetch={false}>
-          <Button aria-label="Kontakt">
-            Kontakt
-          </Button>
+          <Button aria-label="Kontakt">Kontakt</Button>
         </Link>
       </div>
     </header>

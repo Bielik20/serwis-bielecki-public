@@ -10,14 +10,14 @@ on:
         required: true
         type: string
         default: 'main'
-      app:
-        description: 'App to deploy'
+      company:
+        description: 'Company to deploy'
         required: true
-        default: 'junkers'
+        default: 'Junkers'
         type: choice
         options:
-          - junkers
-          - buderus
+          - Junkers
+          - Buderus
 permissions:
   contents: read
   pages: write
@@ -38,13 +38,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Next.js
-        run: npx nx run ${{ github.event.inputs.app }}:build
+        run: npx nx run web:build
         env:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          COMPANY: ${{ github.event.inputs.company }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./apps/${{ github.event.inputs.app }}/out
+          path: ./apps/web/out
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

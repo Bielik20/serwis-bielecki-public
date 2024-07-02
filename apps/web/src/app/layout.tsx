@@ -1,13 +1,13 @@
 import { Footer } from '@serwis-bielecki-public/components/layout/footer';
 import { Header } from '@serwis-bielecki-public/components/layout/header';
+import { COMPANY } from '@serwis-bielecki-public/components/types';
 import { Inter } from 'next/font/google';
 import { cn } from '@serwis-bielecki-public/components/utils';
 import './global.css';
 
 export const metadata = {
   title: 'Serwis Bielecki',
-  description:
-    'Autoryzowany serwis Junkers Bosch w Poznaniu. Oferujemy szeroki zakres usług związanych z kotłami, pompami ciepła i klimatyzacją.',
+  description: `Autoryzowany serwis ${COMPANY} Bosch w Poznaniu. Oferujemy szeroki zakres usług związanych z kotłami, pompami ciepła i klimatyzacją.`,
   robots: 'index, follow',
 };
 

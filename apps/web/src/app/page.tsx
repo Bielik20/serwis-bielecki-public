@@ -1,7 +1,7 @@
 import { About } from '@serwis-bielecki-public/components/sections/about';
 import { Area } from '@serwis-bielecki-public/components/sections/area';
 import { Contact } from '@serwis-bielecki-public/components/sections/contact';
-import { HomeJunkers } from '@serwis-bielecki-public/components/sections/home-junkers';
+import { Home } from '@serwis-bielecki-public/components/sections/home';
 import { Services } from '@serwis-bielecki-public/components/sections/services';
 
 export default function Index() {
@@ -12,7 +12,7 @@ export default function Index() {
    */
   return (
     <>
-      <HomeJunkers />
+      <Home />
       <About />
       <Services />
       <Area />
