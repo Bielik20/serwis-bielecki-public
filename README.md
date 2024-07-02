@@ -1,5 +1,11 @@
 # Serwis Bielecki Public
 
+Link: https://bielik20.github.io/serwis-bielecki-public/
+
+Workflow to deploy to GitHub Pages: https://github.com/Bielik20/serwis-bielecki-public/actions/workflows/pages.yml
+
+To test website: https://pagespeed.web.dev/
+
 ## Generate blur placeholders
 
 1. Set `Image` to use blur:

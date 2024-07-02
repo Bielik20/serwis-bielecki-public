@@ -1,0 +1,50 @@
+name: Pages
+concurrency:
+  group: pages
+  cancel-in-progress: false
+on:
+  workflow_dispatch:
+    inputs:
+      sha:
+        description: 'Git sha to checkout and publish'
+        required: true
+        type: string
+        default: 'main'
+      app:
+        description: 'App to deploy'
+        required: true
+        default: 'junkers'
+        type: choice
+        options:
+          - junkers
+          - buderus
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  main:
+    name: Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.sha }}
+      - name: Setup
+        uses: ./.github/actions/setup
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Next.js
+        run: npx nx run ${{ github.event.inputs.app }}:build
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./apps/${{ github.event.inputs.app }}/out
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
