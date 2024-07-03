@@ -38,7 +38,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Next.js
-        run: npx nx run web:build
+        run: npx nx run web:export
         env:
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
           COMPANY: ${{ github.event.inputs.company }}

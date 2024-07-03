@@ -1,6 +1,6 @@
 //@ts-check
 const { composePlugins, withNx } = require('@nx/next');
-const { withBasePath } = require('../with-base-path');
+const { withBasePath } = require('./with-base-path');
 
 /**
  * @type {import('@nx/next/plugins/with-nx').WithNxOptions}
