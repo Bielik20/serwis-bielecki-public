@@ -1,6 +1,7 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import { MountainIcon } from '../icons';
 import { Button } from '../ui/button';
+import logo from './logo.webp';
 
 export function Header() {
   return (
@@ -12,7 +13,7 @@ export function Header() {
           prefetch={false}
           aria-label="Serwis Bielecki"
         >
-          <MountainIcon className="h-6 w-6" aria-hidden="true" />
+          <Image src={logo} loading='eager' alt='Serwis Bielecki Logo' />
           <span className="text-lg font-bold">Serwis Bielecki</span>
         </Link>
         <nav className="hidden space-x-4 md:flex" aria-label="Główna Nawigacja">
