@@ -18,7 +18,7 @@ export function Home() {
             Autoryzowany Serwis {COMPANY} Bosch
           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Jesteśmy autoryzowanym serwisem Buderus Bosch. Gwarantujemy
+            Jesteśmy autoryzowanym serwisem {COMPANY} Bosch. Gwarantujemy
             najwyższą jakość usług i oryginalność naszych urządzeń. Zaufaj
             profesjonalistom!
           </p>
